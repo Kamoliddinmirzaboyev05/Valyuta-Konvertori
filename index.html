@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Valyuta Konvertori</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <h1>Valyuta Konvertori</h1>
+            <div class="calc">
+                <form class="input">
+                    <input id="in" type="number" placeholder="Konvertatsiya qilishni istagan summani kiriting...">
+                    <input id="out" type="number" placeholder="Bugungi kursdagi kursni kiriting...">
+                </form>
+                <div class="select">
+                    <select name="fromVal" id="fromVal">
+                        <option value="USD">USD</option>
+                        <option value="SOM">SO'M</option>
+                        <option value="RUB">RUB</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                    <select name="toVal" id="toVal">
+                        <option value="SOM">SO'M</option>
+                        <option value="USD">USD</option>
+                        <option value="RUB">RUB</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                </div>
+            </div>
+            <div class="btn">
+                <button id="calculate">
+                    Hisoblash
+                </button>
+            </div>
+            <h2 class="result" id="natija">Natija: </h2>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
